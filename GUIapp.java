@@ -31,6 +31,7 @@ public class GUIapp extends JFrame {
 	
 	public String input;
 	public String encodedOutput;
+	public String decodedOutput;
 
 	/**
 	 * Launch the application.
@@ -84,6 +85,8 @@ public class GUIapp extends JFrame {
 				encodedOutput = ENCODER.encode(inputString.getText());
 				System.out.println(encodedOutput);
 				textField_1.setText(encodedOutput);
+				decodedOutput = DECODER.decode(inputString.getText());
+				textField_2.setText(decodedOutput);
 				
 			}
 		});

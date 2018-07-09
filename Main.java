@@ -14,7 +14,7 @@ public class Main {
 		inst.setVisible(true);
 		
 	
-		boolean ex = true;
+		/*boolean ex = true;
 		loop:
 		while (ex) {
 		
@@ -39,7 +39,7 @@ public class Main {
 		continue loop; 
 		}
 		
-        }
+        }*/
 		
 		
 		//byte[] message = "888".getBytes(StandardCharsets.UTF_8);
